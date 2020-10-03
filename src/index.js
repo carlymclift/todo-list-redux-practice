@@ -7,3 +7,8 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+export const addToDo = todo => ({
+  type: 'ADD_TODO',
+  todo
+});
